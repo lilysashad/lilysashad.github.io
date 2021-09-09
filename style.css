@@ -118,12 +118,6 @@ header{
     
     background: -moz-linear-gradient(bottom, rgb(0, 0, 0, 0.4) 20%, rgb(0, 0, 0, 1) 100%);
 
-    transition:height .8s;
-
-    -webkit-transition:height .8s;
-
-    -moz-transition:height .8s;
-
 }
 
 .col-lg-4:hover .show-description{
