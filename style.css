@@ -1,0 +1,222 @@
+body{
+
+    display:block;
+
+    text-align:center;
+
+    margin:auto;
+
+}
+
+header{
+
+    text-align:center;
+    
+    color:#333333;
+
+    font-family: 'Gill Sans', 'Helvetica';
+
+    margin-bottom:40px;
+
+    background-color: #df9fbf;
+
+    padding-bottom:40px;
+
+}
+
+#portrait{
+
+    width: 17%;
+
+    margin:20px 0px 30px 0px;
+
+    border:3px solid white;
+
+    border-radius:20px;
+
+}
+
+.about{
+
+    width:700px;
+
+    margin: auto;
+
+    font-family:'Baskerville', 'Garamond';
+
+    line-height: 2rem;
+
+    padding-bottom:30px;
+
+    text-align:justify;
+
+    color:#333333;
+
+}
+
+.projects{
+
+    width:700px;
+
+    font-family:'Baskerville', 'Garamond';
+
+    margin:auto;
+
+    text-align: left;
+
+    padding-bottom:50px;
+
+}
+
+.project-logo{
+
+    width:100%;
+
+}
+
+.show-description{
+
+    display: none;
+
+    width:inherit;
+
+    height:inherit;
+
+}
+
+.show-description p{
+
+    height:203px;
+    
+    width: 203px;
+
+    position: absolute;
+
+    padding:8px;
+
+    display: block;
+
+    text-align: left;
+    
+    top: 50%;
+
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+
+    font-family: 'Gill Sans', 'Helvetica';
+    
+    color: white;
+
+    font-size:larger;
+  
+    background: #df9fbf;
+  
+    background: linear-gradient(bottom, rgb(0, 0, 0, 0.4) 20%, rgb(0, 0, 0, 1) 100%);
+    
+    background: -webkit-linear-gradient(bottom, rgb(0, 0, 0, 0.4) 20%, rgb(0, 0, 0, 1) 100%);
+    
+    background: -moz-linear-gradient(bottom, rgb(0, 0, 0, 0.4) 20%, rgb(0, 0, 0, 1) 100%);
+
+    transition:height .8s;
+
+    -webkit-transition:height .8s;
+
+    -moz-transition:height .8s;
+
+}
+
+.col-lg-4:hover .show-description{
+
+    display:block;
+
+}
+
+.container-skills-contact{
+
+    width:800px;
+
+    font-family:'Baskerville','Garamond';
+
+    margin: auto;
+
+    color:#333333;
+
+    align-items: left;
+
+}
+
+ul{
+
+    padding-left: 0;
+
+    list-style-type:none;
+
+}
+
+li{
+
+    list-style-type: none;
+
+    line-height: 2rem;
+
+}
+
+.contact, .skills{
+
+    align-items: left;
+
+    margin:auto;
+}
+
+#git-logo{
+
+    width:15%;
+
+}
+
+#linkedin-logo{
+
+    width: 13%;
+
+    padding: 14px 0px 0px 6px;
+
+}
+
+#email-logo{
+
+    width: 14%;
+
+    padding: 14px 0px 0px 4px;
+
+}
+
+@media (max-width: 992px) {
+
+    #portrait{
+
+        width:30%;
+
+    }
+
+    .about, .container, .projects, .skills, .container-skills-contact{
+
+        width:fit-content;
+
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+    .show-description p{
+
+        font-size: 38px;
+
+        width:400px;
+        
+        height: 400px;
+
+    }
+
+}
