@@ -1,0 +1,120 @@
+body{
+
+    display:block;
+
+    text-align:center;
+
+    margin:auto;
+
+}
+
+header{
+
+    text-align:center;
+    
+    color:#333333;
+
+    font-family: 'Gill Sans', 'Helvetica';
+
+    margin-bottom:40px;
+
+    background-color: #df9fbf;
+
+    padding-bottom:40px;
+
+}
+
+
+.nav{
+
+    background: rgba(128, 217, 255, 0.536);
+
+    padding: 3px;
+
+}
+
+.nav-li{
+
+    display: inline;
+      
+    padding: 0px 30px 0px 30px;
+
+    font-size: 16px;
+
+}
+
+.nav-text{
+
+    color: white;
+
+}
+
+#portrait{
+
+    width: 17%;
+
+    margin:20px 0px 30px 0px;
+
+    border:3px solid white;
+
+    border-radius:20px;
+
+}
+
+.archived-posts{
+
+    width:700px;
+
+    margin: auto;
+
+    font-family:'Baskerville', 'Garamond';
+
+    line-height: 2rem;
+
+    padding-bottom:30px;
+
+    text-align:justify;
+
+    color:#333333;
+
+}
+
+#date{
+
+    font-weight: bold;
+
+}
+
+.projects{
+
+    width:700px;
+
+    font-family:'Baskerville', 'Garamond';
+
+    margin:auto;
+
+    text-align: left;
+
+    padding-bottom:50px;
+
+}
+
+@media (max-width: 992px) {
+
+    #portrait{
+
+        width:30%;
+
+    }
+
+    .archived-posts{
+
+        width:fit-content;
+
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+}
