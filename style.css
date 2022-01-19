@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
 body{
 
     display:block;
@@ -66,7 +68,7 @@ header{
 
     margin: auto;
 
-    font-family:'Baskerville', 'Garamond';
+    font-family: 'Martel', serif;
 
     line-height: 2rem;
 
@@ -82,13 +84,15 @@ header{
 
     width:700px;
 
-    font-family:'Baskerville', 'Garamond';
+    font-family: 'Martel', serif;
 
     margin:auto;
 
     text-align: left;
 
     padding-bottom:50px;
+
+    transition:all 0.3s ease;
 
 }
 
@@ -134,8 +138,6 @@ header{
 
     font-size:larger;
   
-    background: #df9fbf;
-  
     background: linear-gradient(bottom, rgb(0, 0, 0, 0.4) 20%, rgb(0, 0, 0, 1) 100%);
     
     background: -webkit-linear-gradient(bottom, rgb(0, 0, 0, 0.4) 20%, rgb(0, 0, 0, 1) 100%);
@@ -154,7 +156,7 @@ header{
 
     width:800px;
 
-    font-family:'Baskerville','Garamond';
+    font-family: 'Martel', serif;
 
     margin: auto;
 
