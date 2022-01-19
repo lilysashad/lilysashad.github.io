@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
 body{
 
     display:block;
@@ -67,7 +69,7 @@ header{
 
     margin: auto;
 
-    font-family:'Baskerville', 'Garamond';
+    font-family: 'Martel', serif;
 
     line-height: 2rem;
 
@@ -81,21 +83,7 @@ header{
 
 #date{
 
-    font-weight: bold;
-
-}
-
-.projects{
-
-    width:700px;
-
-    font-family:'Baskerville', 'Garamond';
-
-    margin:auto;
-
-    text-align: left;
-
-    padding-bottom:50px;
+    font-weight:bolder;
 
 }
 
